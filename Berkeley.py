@@ -30,7 +30,7 @@ Thus, the new local timestamp is set in every node."""
         print("\nEntered timestamps are : ",self.objects[master].initial_time)
         self.objects[master].aver()
 
-        print("Thia is because the local timestamp of every node is set to the average value. Thus, local timestamps of %d nodes are "  %n )
+        print("This is because the local timestamp of every node is set to the average value. Thus, local timestamps of %d nodes are "  %n )
         for i in self.objects:
             print(i.time_stamp)
 
@@ -71,5 +71,5 @@ if __name__ == '__main__':
     b = Berkeley(None)
     print(b.__doc__,"\n")
     b.masters()
-
+    print("New Line Added")
 
